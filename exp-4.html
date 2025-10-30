@@ -1,41 +1,91 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Hotel Room Booking Form</title>
 </head>
+
 <body>
-    <h2>Hotel Room Booking Form</h2><hr>
-    <form>
-        <label for="fullname">Full Name:</label><br>
-        <input type="text" id="fullname" name="fullname"><br><br>
 
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email"><br><br>
 
-        <label for="phone">Phone:</label><br>
-        <input type="tel" id="phone" name="phone"><br><br>
 
-        <label for="checkin">Check-in Date:</label><br>
-        <input type="date" id="checkin" name="checkin"><br><br>
+    <!-- OUTER BOX -->
+    <table border="1" cellpadding="15" cellspacing="0" align="center">
+        <tr>
+            <td>
 
-        <label for="checkout">Check-out Date:</label><br>
-        <input type="date" id="checkout" name="checkout"><br><br>
+                <h2 align="center">Hotel Room Booking Form</h2>
 
-        <label for="roomtype">Room Type:</label><br>
-        <select id="roomtype" name="roomtype">
-            <option value="single">Single Room</option>
-            <option value="double">Double Room</option>
-            <option value="suite">Suite</option>
-        </select><br><br>
+                <form>
+                    <table cellpadding="5" cellspacing="5" align="center">
+                        <tr>
+                            <td>Full Name:</td>
+                            <td><input type="text"></td>
+                        </tr>
 
-        <label for="guests">Number of Guests:</label><br>
-        <input type="number" id="guests" name="guests" min="1"><br><br>
+                        <tr>
+                            <td>Email:</td>
+                            <td><input type="email"></td>
+                        </tr>
 
-        <label for="requests">Special Requests:</label><br>
-        <textarea id="requests" name="requests"></textarea><br><br>
+                        <tr>
+                            <td>Phone:</td>
+                            <td><input type="text"></td>
+                        </tr>
 
-        <button type="submit">Book Now</button>
-        <button type="reset">Reset Form</button>
-    </form>
+                        <tr>
+                            <td>Check-in Date:</td>
+                            <td><input type="date"></td>
+                        </tr>
+
+                        <tr>
+                            <td>Check-out Date:</td>
+                            <td><input type="date"></td>
+                        </tr>
+
+                        <tr>
+                            <td>Room Type:</td>
+                            <td>
+                                <select>
+                                    <option>Single Room</option>
+                                    <option>Double Room</option>
+                                    <option>Deluxe Room</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Number of Guests:</td>
+                            <td><input type="number"></td>
+                        </tr>
+
+                        <tr>
+                            <td>Special Requests:</td>
+                            <td><textarea rows="4" cols="20"></textarea></td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2" align="center">
+                                <input type="submit" value="Book Now">
+                                <input type="reset" value="Reset Form">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+
+            </td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <h3>Outcome</h3>
+    <ul>
+        <li>Successfully created a hotel room booking form webpage using HTML.</li>
+        <li>Implemented input fields, labels, select, textarea, and buttons.</li>
+        <li>Learned practical form design techniques for web applications.</li>
+    </ul>
+    <hr>
 </body>
+
 </html>
