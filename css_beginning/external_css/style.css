@@ -1,7 +1,19 @@
-body{
-    background-color: coral;
-
+div {
+    height: 100px;
+    width: 200px;
+    border: 5px solid red;
+    box-sizing: content-box;
+    background-color: lightblue;
 }
-h1{
-    background-color: rgb(255, 255, 255);
+.box2{
+height: 3cm;
+width: 5cm;
+border: 5px solid rgb(0, 0, 0);
+text-align: center;
+border-radius: 10px;
+}
+span{
+    background-color: cornflowerblue;
+   
+    border:solid darkblue;
 }
